@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  /* font-family: 'Roboto', sans-serif; */
+  background-color: hsla(317, 90%, 6%, 1);
+}
+main {
+  width: 85vw;
+}
+
+h1,
+p {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: hsla(317, 100%, 88%, 1);
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  color: hsla(317, 100%, 41%, 1);
+}
+
+input {
+  color: hsla(317, 90%, 6%, 1);
+  border-radius: none;
+  padding: 0.25em 0.75em;
+}
+
+button {
+  font-family: 'Paytone One', sans-serif;
+  background-color: hsla(317, 90%, 66%, 1);
+  border: none;
+  padding: 0.25em 0.75em;
+  color: hsla(317, 90%, 6%, 1);
+  cursor: pointer;
+}
+
+button:hover {
+  color: hsla(317, 90%, 6%, 1);
+  background-color: hsla(317, 90%, 33%, 1);
+}
+
+/* .delete-btn {
+  margin-left: 0.5em;
+} */
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: hsla(317, 100%, 88%, 1);
+  width: 85vw;
+  margin-top: 1em;
+}
+
+img {
+  margin: 0.5em;
+}
